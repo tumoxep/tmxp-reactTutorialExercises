@@ -1,1 +1,1 @@
-export const SET_HISTORY = "SET_HISTORY";
+export const ADD_TO_HISTORY = "ADD_TO_HISTORY";

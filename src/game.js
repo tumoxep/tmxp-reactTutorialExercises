@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { calculateWinner, coords } from './utils';
-import { setHistory } from './store/actions';
+import { addToHistory } from './store/actions';
 
 function Square(props) {
   const classes = `square ${props.isWinner ? 'winner' : ''}`
@@ -72,12 +72,13 @@ class Game extends React.Component {
       stepNumber: history.length,
       xIsNext: !this.state.xIsNext,
     });
-    this.props.setHistory(
-      history.concat([{
+    this.props.addToHistory({
+      item: {
         squares: squares,
         coords: coords(i),
-      }]),
-    );
+      },
+      stepNumber: this.state.stepNumber,
+    });
   }
   
   jumpTo(step) {
@@ -144,11 +145,7 @@ class Game extends React.Component {
   }
 }
 
-const mapStateToProps = state => {
-  return { history: state.history };
-};
-
 export default connect(
-  mapStateToProps,
-  { setHistory },
+  (state) => state,
+  { addToHistory },
 )(Game);

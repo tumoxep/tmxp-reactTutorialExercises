@@ -1,6 +1,6 @@
-import { SET_HISTORY } from "./actionTypes";
+import { ADD_TO_HISTORY } from "./actionTypes";
 
-export const setHistory = content => ({
-  type: SET_HISTORY,
-  payload: content,
+export const addToHistory = payload => ({
+  type: ADD_TO_HISTORY,
+  payload,
 });

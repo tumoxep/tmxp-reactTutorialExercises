@@ -1,4 +1,4 @@
-import { SET_HISTORY } from "../actionTypes";
+import { ADD_TO_HISTORY } from "../actionTypes";
 
 const initialState = [{
   squares: Array(9).fill(null),
@@ -6,8 +6,8 @@ const initialState = [{
 
 export default function(state = initialState, action) {
   switch (action.type) {
-    case SET_HISTORY: {
-      return action.payload;
+    case ADD_TO_HISTORY: {
+      return state.slice(0, action.payload.stepNumber + 1).concat([ action.payload.item ]);
     }
     default:
       return state;
