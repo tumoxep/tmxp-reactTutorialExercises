@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://tumoxep.github.io/tmxp-reactTutorialExercises/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
