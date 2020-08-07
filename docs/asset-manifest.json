@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tmxp-reactTutorialExercises/static/css/main.b0e4fdcb.chunk.css",
+    "main.js": "/tmxp-reactTutorialExercises/static/js/main.5bcf2657.chunk.js",
+    "main.js.map": "/tmxp-reactTutorialExercises/static/js/main.5bcf2657.chunk.js.map",
+    "runtime-main.js": "/tmxp-reactTutorialExercises/static/js/runtime-main.c512ad79.js",
+    "runtime-main.js.map": "/tmxp-reactTutorialExercises/static/js/runtime-main.c512ad79.js.map",
+    "static/js/2.9017bb81.chunk.js": "/tmxp-reactTutorialExercises/static/js/2.9017bb81.chunk.js",
+    "static/js/2.9017bb81.chunk.js.map": "/tmxp-reactTutorialExercises/static/js/2.9017bb81.chunk.js.map",
+    "index.html": "/tmxp-reactTutorialExercises/index.html",
+    "precache-manifest.ab15e75f6fb4dd305d43c1caa9d59934.js": "/tmxp-reactTutorialExercises/precache-manifest.ab15e75f6fb4dd305d43c1caa9d59934.js",
+    "service-worker.js": "/tmxp-reactTutorialExercises/service-worker.js",
+    "static/css/main.b0e4fdcb.chunk.css.map": "/tmxp-reactTutorialExercises/static/css/main.b0e4fdcb.chunk.css.map",
+    "static/js/2.9017bb81.chunk.js.LICENSE.txt": "/tmxp-reactTutorialExercises/static/js/2.9017bb81.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c512ad79.js",
+    "static/js/2.9017bb81.chunk.js",
+    "static/css/main.b0e4fdcb.chunk.css",
+    "static/js/main.5bcf2657.chunk.js"
+  ]
+}
